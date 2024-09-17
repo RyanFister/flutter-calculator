@@ -78,7 +78,8 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                 '7', '8', '9', '/',
                 '4', '5', '6', '*',
                 '1', '2', '3', '-',
-                'C', '0', '=', '+'
+                'C', '0', '=', '+',
+                '%'
               ].map((value) {
                 return GestureDetector(
                   onTap: () => _onPressed(value),
